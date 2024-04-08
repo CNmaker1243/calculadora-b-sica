@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>SOMA BASICA</h1>
+
+    <form id="calculadoraForm">
+        <input type="number" id="numero1" placeholder="Digite o primeiro número" required>
+        <p class="icone-de-soma">+</p>
+        <input type="number" id="numero2" placeholder="Digite o segundo número" required>
+    </form>
+    <form>
+        <button type="button" onclick="somar()">Somar</button>
+    </form>
+
+    <p id="resultado"></p>
+</body>
+</html> 
